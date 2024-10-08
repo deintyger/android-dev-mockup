@@ -5,8 +5,7 @@ html {
   margin: 0px;
   padding: 0px;
   scroll-behavior: smooth;
-  height: 700vh;
-  overflow-y: auto;
+  height: 300vh;
 }
 
 body {
@@ -16,8 +15,7 @@ body {
 }
 
 .navbar-container {
-  margin-left: 15px;
-  justify-content: center;
+  margin-left: -10px;
   height: 45px;
   padding-top: 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -267,10 +265,9 @@ a:hover {
 
 .hero-maintext {
   background-color: #333;
+  margin-left: -8px;
   width: 100%;
   min-height: 370px;
-  margin-left: -8px;
-  padding-right: 100px;
   margin-top: -52px;
 }
 
@@ -318,7 +315,7 @@ a:hover {
 .kotlin-text,
 .android-java-text,
 .certification-text {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   text-align: start;
   margin-bottom: -5px;
@@ -619,6 +616,7 @@ hr {
 }
 
 .footer-bottom-list-logo {
+  margin-left: 20px;
   width: 150px;
   height: 150px;
 }
